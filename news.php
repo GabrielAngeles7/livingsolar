@@ -78,6 +78,12 @@
         <div class="media-body">
           <h4 class="media-heading">Solar review casts shadow on high-rises</h4>
           <span class="media-meta">Posted on Oct 29 2013</span>
+          <div class="social-sharing">
+            <span class='st_facebook_hcount' displayText='Facebook'></span>
+            <span class='st_twitter_hcount' displayText='Tweet'></span>
+            <span class='st_linkedin_hcount' displayText='LinkedIn'></span>
+            <span class='st_googleplus_hcount' displayText='Google +'></span>
+          </div>
           <div class="media-content">
             <p>Developers may be prevented from building high-rises that block sunlight from hitting solar panels on buildings in central Melbourne, under new rules being considered by the state government. The Department of Transport, Planning and Local Infrastructure is reviewing planning and building provisions that affect solar panel placement and overshadowing.</p>
             <p>The Department of Transport, Planning and Local Infrastructure is reviewing planning and building provisions that affect solar panel placement and overshadowing.</p>
@@ -93,6 +99,6 @@
   </div>
 </div>
 
-
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <?php include 'partials/free-quote.php'; ?>
 <?php include 'partials/footer.php'; ?>

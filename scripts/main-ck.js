@@ -1,1 +1,1 @@
-$("#blueimp-gallery").data("useBootstrapModal",0);$("#blueimp-gallery").toggleClass("blueimp-gallery-controls",1);
+$("#blueimp-gallery").data("useBootstrapModal",0);$("#blueimp-gallery").toggleClass("blueimp-gallery-controls",1);$(window).load(function(){$("#status").fadeOut();$("#preloader").delay(350).fadeOut("slow");$("body").delay(350).css({overflow:"visible"})});

@@ -241,7 +241,7 @@ p {
    Navbar
    ========================================================================== */
 .l-navbar {
-  z-index: 11;
+  z-index: 999;
   margin: 0;
   border-bottom: 3px solid #5fa7ad;
   border-radius: 0;
@@ -1228,4 +1228,70 @@ body:last-child .blueimp-gallery > .slides > .slide > .video-content:not(.video-
 }
 .media-object {
   margin-right: 15px;
+}
+.social-sharing {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background: url('../images/preloader.png') left no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+@-moz-keyframes spin {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
 }
