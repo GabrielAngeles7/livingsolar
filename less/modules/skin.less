@@ -4,6 +4,7 @@
 
 
 .skin-pretty {
+	position: relative;
 	#gradient > .vertical(#73d1da, #eff4dc);  
 
 	&:after {
@@ -13,8 +14,103 @@
 		content: '';
 		width: 100%;
 		height: 100%;
-		background: url('@{imagePath}/bg-skin.png') no-repeat;
+		background: url('@{imagePath}/bg-skin.png') repeat;
 		background-attachment: fixed;
 		background-size: cover;
+		-webkit-animation: pretty-animate 130s infinite linear;
+		-moz-animation: pretty-animate 130s infinite linear;
+		animation: pretty-animate 130s infinite linear;
+	}
+
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.skin-pretty-md {
+	position: absolute;
+	left: 0;
+	right: 0;
+	min-height: 400px;
+
+	&:before {
+		position: absolute;
+		bottom: 0;
+		content: '';
+		width: 100%;
+		height: 100px;
+		#gradient > .vertical(rgba(255,255,255,0), #fff);  
+	}
+
+
+}
+
+.skin-blue {
+	.block-content {
+		background: #3bb4d6;
+	}
+
+	.block-title {
+		background: rgba(0, 149, 191, 0.5);
+	}
+}
+
+.skin-yellow {
+	.block-content {
+		background: #d2b542;
+	}
+
+	.block-title {
+		background: rgba(168, 149, 53, 0.5);
+	}
+}
+
+.skin-green {
+	.block-content {
+		background: #20c879;
+	}
+
+	.block-title {
+		background: rgba(32, 200, 121, 0.5);
+	}
+}
+
+.skin-white {
+	line-height: 1.8;
+	color: #fff;
+
+	a {
+		color: #fff;
+	}
+}
+
+@-webkit-keyframes pretty-animate {
+	0% {
+		background-position: 0 0;
+	}
+
+	100% {
+		background-position: -10000px 0;
+	}
+}
+
+@-moz-keyframes pretty-animate {
+	0% {
+		background-position: 0 0;
+	}
+
+	100% {
+		background-position: -10000px 0;
+	}
+}
+
+@keyframes pretty-animate {
+	0% {
+		background-position: 0 0;
+	}
+
+	100% {
+		background-position: -10000px 0;
 	}
 }

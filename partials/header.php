@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width">
 
   <link rel="stylesheet" href="styles/bootstrap.css">
-  <!-- <link rel="stylesheet" href="styles/icons.css"> -->
+  <link rel="stylesheet" href="styles/icons.css">
   <link rel="stylesheet" href="styles/main.css">
 
   <script src="scripts/vendors/jquery.min.js"></script>

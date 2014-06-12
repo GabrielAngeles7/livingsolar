@@ -1,0 +1,141 @@
+[class^="icon-"],
+[class*="icon-"] {
+  display: inline-block;
+}
+
+/* =============================================================================
+   Positions
+   ========================================================================== */
+.icon-sprite, .icon-check, .icon-chevron-left, .icon-commercial, .icon-dollar, .icon-down, .icon-information, .icon-installation, .icon-left, .icon-phone, .icon-residential, .icon-right, .icon-search, .icon-trade, .icon-up {
+  background-image: url('../images/icon-s966a0e5c7f.png');
+  background-repeat: no-repeat;
+}
+
+.icon-check {
+  background-position: 0 0;
+}
+
+.icon-chevron-left {
+  background-position: -29px 0;
+}
+
+.icon-commercial {
+  background-position: -34px 0;
+}
+
+.icon-dollar {
+  background-position: -74px 0;
+}
+
+.icon-down {
+  background-position: -91px 0;
+}
+
+.icon-information {
+  background-position: -105px 0;
+}
+
+.icon-installation {
+  background-position: -118px 0;
+}
+
+.icon-left {
+  background-position: -143px 0;
+}
+
+.icon-phone {
+  background-position: -153px 0;
+}
+
+.icon-residential {
+  background-position: -169px 0;
+}
+
+.icon-right {
+  background-position: -197px 0;
+}
+
+.icon-search {
+  background-position: -206px 0;
+}
+
+.icon-trade {
+  background-position: -221px 0;
+}
+
+.icon-up {
+  background-position: -260px 0;
+}
+
+/* =============================================================================
+   Dimensions
+   ========================================================================== */
+.icon-search {
+  height: 15px;
+  width: 15px;
+}
+
+.icon-up {
+  height: 9px;
+  width: 14px;
+}
+
+.icon-down {
+  height: 9px;
+  width: 14px;
+}
+
+.icon-residential {
+  height: 27px;
+  width: 28px;
+}
+
+.icon-trade {
+  height: 29px;
+  width: 39px;
+}
+
+.icon-commercial {
+  height: 35px;
+  width: 40px;
+}
+
+.icon-left {
+  height: 15px;
+  width: 10px;
+}
+
+.icon-right {
+  height: 15px;
+  width: 9px;
+}
+
+.icon-phone {
+  height: 16px;
+  width: 16px;
+}
+
+.icon-chevron-left {
+  height: 9px;
+  width: 5px;
+}
+
+.icon-check {
+  height: 22px;
+  width: 29px;
+}
+
+.icon-dollar {
+  height: 33px;
+  width: 17px;
+}
+
+.icon-information {
+  height: 24px;
+  width: 13px;
+}
+
+.icon-installation {
+  height: 26px;
+  width: 25px;
+}
