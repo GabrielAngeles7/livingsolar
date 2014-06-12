@@ -1,0 +1,60 @@
+/* =============================================================================
+   Navbar
+   ========================================================================== */
+
+// Header Wrap
+
+.l-navbar {
+	margin: 0;
+	border-bottom: 3px solid #5fa7ad;
+	border-radius: 0;
+
+	.navbar-collapse {
+		padding-right: 0;
+	}
+}
+
+
+// Brand
+.navbar-brand {
+	display: inline-block;
+	width: 270px;
+	height: 58px;
+	margin: 25px 0;
+	background: url('@{imagePath}/branding.png') center  no-repeat;
+	.hide-text();
+
+	@media (min-width: @screen-sm-min) {
+		margin-left: 0 !important;
+	}
+}
+
+
+// Menu 
+.navbar-nav {
+	> li {
+		> a {
+			font-size: 15px;
+			color: @navbar-link-color; // See main.less for color palettes
+		}
+	}
+}
+
+// Navbar Top
+.navbar-top {
+	clear: right;
+	padding-top: 15px;
+
+	li {
+		margin: 0 4px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.navbar-bottom {
+	padding: 4px 0;
+	clear: right;
+}
