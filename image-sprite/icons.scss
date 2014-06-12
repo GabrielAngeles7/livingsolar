@@ -7,69 +7,71 @@
     display: inline-block;
 }
 
+/* =============================================================================
+   Positions
+   ========================================================================== */
+
 $icon-layout:horizontal;
 @import "icon/*.png";
 @include all-icon-sprites;
 $icon: sprite-map("icon/*.png", $spacing: 10px);
 
+/* =============================================================================
+   Dimensions
+   ========================================================================== */
 
-
-.icon-telephone {
-    @include sprite-dimensions($icon, telephone);
+.icon-search {
+  @include sprite-dimensions($icon, search);
 }
 
-.icon-right-arrow {
-    @include sprite-dimensions($icon, right-arrow);
+.icon-up {
+  @include sprite-dimensions($icon, up);
 }
 
-.icon-sharing {
-    @include sprite-dimensions($icon, right-arrow);
+.icon-down {
+  @include sprite-dimensions($icon, down);
 }
 
-.icon-left-quote {
-    @include sprite-dimensions($icon, left-quote);
+.icon-residential {
+  @include sprite-dimensions($icon, residential);
 }
 
-.icon-right-quote {
-    @include sprite-dimensions($icon, right-quote);
+.icon-trade {
+  @include sprite-dimensions($icon, trade);
 }
 
-.icon-left-arrow-lg {
-    @include sprite-dimensions($icon, left-arrow-lg);
+.icon-commercial {
+  @include sprite-dimensions($icon, commercial);
 }
 
-.icon-down-arrow-lg {
-    @include sprite-dimensions($icon, down-arrow-lg);
+.icon-left {
+  @include sprite-dimensions($icon, left);
 }
 
-.icon-down-arrow-lg-white {
-    @include sprite-dimensions($icon, down-arrow-lg-white);
+.icon-right {
+  @include sprite-dimensions($icon, right);
 }
 
-.icon-top-arrow-lg {
-    @include sprite-dimensions($icon, top-arrow-lg);
+.icon-phone {
+  @include sprite-dimensions($icon, phone);
 }
 
-.icon-google {
-    @include sprite-dimensions($icon, google);
+.icon-chevron-left {
+  @include sprite-dimensions($icon, chevron-left);
 }
 
-.icon-facebook {
-    @include sprite-dimensions($icon, facebook);
+.icon-check {
+  @include sprite-dimensions($icon, check);
 }
 
-.icon-linkedin {
-    @include sprite-dimensions($icon, linkedin);
+.icon-dollar {
+  @include sprite-dimensions($icon, dollar);
 }
 
-.icon-twitter {
-    @include sprite-dimensions($icon, twitter);
+.icon-information {
+  @include sprite-dimensions($icon, information);
 }
 
-.icon-share {
-    @include sprite-dimensions($icon, share);
-}
-
-.icon-star {
-    @include sprite-dimensions($icon, star);
+.icon-installation {
+  @include sprite-dimensions($icon, installation);
 }
